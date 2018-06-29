@@ -1,4 +1,4 @@
-package com.ucloudlink.css.elasticsearch.spring;
+package com.devzy.share.elasticsearch.spring;
 
 import java.net.InetAddress;
 
@@ -11,7 +11,7 @@ import org.elasticsearch.transport.client.PreBuiltTransportClient;
 import org.elasticsearch.xpack.client.PreBuiltXPackTransportClient;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 
-import com.ucloudlink.css.util.StringUtil;
+import com.devzy.share.util.StringUtil;
 
 public class ElasticsearchSpringFactory {
 	private static Logger logger = LogManager.getLogger();

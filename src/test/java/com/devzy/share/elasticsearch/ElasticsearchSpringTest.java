@@ -1,4 +1,4 @@
-package com.ucloudlink.css.elasticsearch;
+package com.devzy.share.elasticsearch;
 
 import java.util.Arrays;
 import java.util.Date;
@@ -7,10 +7,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-import com.ucloudlink.css.elasticsearch.api.SpringElasticsearch;
-import com.ucloudlink.css.elasticsearch.pojo.SampleEntity;
-import com.ucloudlink.css.util.DateUtil;
-import com.ucloudlink.css.util.StringUtil;
+import com.devzy.share.elasticsearch.api.SpringElasticsearch;
+import com.devzy.share.elasticsearch.pojo.SampleEntity;
+import com.devzy.share.util.DateUtil;
+import com.devzy.share.util.StringUtil;
 
 public class ElasticsearchSpringTest {
 	private static SpringElasticsearch factory = new SpringElasticsearch();

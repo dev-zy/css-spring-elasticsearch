@@ -1,4 +1,4 @@
-package com.ucloudlink.css.elasticsearch.spring;
+package com.devzy.share.elasticsearch.spring;
 
 import java.io.Serializable;
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package com.ucloudlink.css.elasticsearch.core;
+package com.devzy.share.elasticsearch.core;
 
 import org.elasticsearch.client.Client;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;

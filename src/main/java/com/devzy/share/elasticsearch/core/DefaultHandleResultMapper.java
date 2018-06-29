@@ -1,4 +1,4 @@
-package com.ucloudlink.css.elasticsearch.core;
+package com.devzy.share.elasticsearch.core;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -35,7 +35,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.fasterxml.jackson.core.JsonEncoding;
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonGenerator;
-import com.ucloudlink.css.util.StringUtil;
+import com.devzy.share.util.StringUtil;
 
 public class DefaultHandleResultMapper extends DefaultResultMapper {
 	private MappingContext<? extends ElasticsearchPersistentEntity<?>, ElasticsearchPersistentProperty> mappingContext;

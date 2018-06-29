@@ -1,4 +1,4 @@
-package com.ucloudlink.css.elasticsearch.api;
+package com.devzy.share.elasticsearch.api;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -27,8 +27,8 @@ import org.springframework.data.elasticsearch.core.query.UpdateQuery;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.ucloudlink.css.elasticsearch.config.ElasticsearchSingleton;
-import com.ucloudlink.css.util.StringUtil;
+import com.devzy.share.elasticsearch.config.ElasticsearchSingleton;
+import com.devzy.share.util.StringUtil;
 
 public class SpringElasticsearch {
 //	private static Logger logger = LogManager.getLogger();
